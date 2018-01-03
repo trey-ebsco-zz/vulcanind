@@ -1,0 +1,91 @@
+/*
+Theme Name:     Twenty Eleven Child Theme for Vulcan Industries
+Theme URI:      http://www.vulanind.com/
+Description:    Child theme for the Twenty Eleven theme 
+Author:         EBSCO Industries, Inc.
+Author URI:     http: //www.ebscoind.com
+Template:       twentyeleven
+Version:        1.0.0
+*/
+
+
+@import url("style.css");
+
+
+
+
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+
+
+.request_info {
+	top:74px;
+}
+
+#access a {
+	padding:10px 42px;
+}
+
+
+a#icon_home {
+	display:none;
+}
+
+
+
+#menu-item-164 {
+	padding-right: 3px;
+}
+
+
+
+#footer_nav ul.nav_col_1 {
+	list-style-position: outside;
+	margin-right: 5px;
+}
+
+
+
+
+form button {
+	margin:-13px 0 0 0;
+}
+
+
+
+#IEonly .ie_style {
+	background:#ffffff url('/wp-content/uploads/icon_email.png') no-repeat 5px top;
+    border-top: 1px solid #d1d1d1;
+	border-right: none;
+	border-bottom: 1px solid #d1d1d1;
+	border-left: 1px solid #d1d1d1;
+    font: normal normal .9em/.9em 'Fjord One', "Trebuchet MS", Georgia, "Times New Roman", serif;
+    color: #bebebe;
+    width: 180px;
+    /*padding: 9px 15px 9px 5px;*/
+	padding: 8px 7px 5px 37px;
+    /*text-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);*/
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset;
+    -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset;
+}
+
+
+
+
+input#s {
+	padding:10px 7px 2px 7px;
+}
+
+
+
+
+#design_target, #engineering_target, #sampleshop_target, #production_target, #projectmanagement_target, #logisticsanddistribution_target, #customerservice_target, #listen_target, #create_target, #deliver_target {
+	margin: 0px 0 30px 100px;
+	background-color:white;
+	filter: progid:DXImageTransform.Microsoft.Chroma(color='white')
+            progid:DXImageTransform.Microsoft.Alpha(opacity=100);
+}

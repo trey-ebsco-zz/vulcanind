@@ -1,0 +1,181 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+/*------------CREATIVE PROCESS PAGE-----------*/
+
+
+#capabilities_header {
+	margin: 0 auto;
+	padding: 0;
+	width: 960px;
+	min-height: 210px;
+	height:auto !important;
+	height:210px;
+	-moz-box-shadow:    0px 0px 12px 1px #a6a6a6;
+    -webkit-box-shadow: 0px 0px 12px 1px #a6a6a6;
+    box-shadow:         0px 0px 12px 1px #a6a6a6;
+	position:relative;
+	z-index:10;
+	height:1%;
+}
+
+
+
+
+#capabilities_header_copy {
+	width: 100%;
+	min-height:185px;
+	height:auto !important;
+	height:185px;
+	margin: 0;
+	padding:25px 0 20px 0;
+	background:#ffffff url('/wp-content/uploads/header_our_capabilities1.jpg') no-repeat right top;
+	float: left;
+	clear:both;
+	overflow:hidden;
+	height:1%;
+
+}
+
+
+#capabilities_header_copy h1 {
+	font-size:3em;
+	line-height:1.2em;
+	margin:0;
+	margin-right: 370px;
+	padding:8px 50px 8px 27px;
+	color:#edb067;
+	background:rgb(0, 0, 0);
+	background: rgba(0, 0, 0, 0.8);
+}
+
+
+#capabilities_header_copy p {
+	margin: 5px 460px 0 27px;
+}
+
+
+
+/*------------CREATIVE PROCESS PANELS-----------*/
+
+
+
+#capabilities_panels {
+	margin: 0 auto;
+	padding: 40px 0;
+	width: 960px;
+	min-height: 500px;
+	height:auto !important;
+	height:500px;
+	background:#ffffff url('/wp-content/uploads/bg_shadow.png') no-repeat left top;
+	overflow:hidden;
+	height:1%;
+}
+
+
+
+#capabilities_content {
+	width: 80%;
+	margin: 0 auto 50px auto;
+}
+
+#capabilities_content img {
+	float:left;
+	 clear: none;
+}
+
+.design, .engineering, .sampleshop, .production, .projectmgt, .logistics, .customersvc, .listen, .create, .deliver {
+	border-bottom: 7px solid #f8f8f8;	
+}
+
+
+.design h1, .engineering h1, .sampleshop h1, .production h1, .projectmgt h1, .logistics h1, .customersvc h1, .listen h1, .create h1, .deliver h1 {
+	line-height:1.6em;
+}
+
+
+#IEonly #capabilities_content h1 {
+	font-size:1.5em;
+	line-height:1.5em;
+	padding: 0;
+}
+
+
+
+.design a:link {
+	background-color:#edb067;
+	padding: 0 10px !important;
+	margin-bottom:0;
+	color:#343434;
+}
+
+.listen a:link {
+	background-color:#E9E257;
+}
+
+.create a:link {
+	background-color:#98D2DE;
+}
+
+.deliver a:link {
+	background-color:#7BD4A6;
+}
+
+
+
+
+.design a:visited, .listen a:visited, .create a:visited, .deliver a:visited {
+	color:#343434;	
+}
+
+
+.design a:hover, .listen a:hover, .create a:hover, .deliver a:hover {
+	color:#ffffff;	
+}
+
+
+.design_intro, .listen_intro, .create_intro, .deliver_intro {
+	min-height: 130px;
+	height:auto !important;
+	height:130px;
+}
+
+
+#design_target, #listen_target, #create_target, #deliver_target {
+	margin: 0px 0 30px 100px;
+}
+
+
+#design_target p, #listen_target p, #create_target p, #deliver_target p {
+	margin: 13px 0;
+}
+
+
+#design_target ul, #listen_target ul, #create_target ul, #deliver_target ul {
+	margin: 0 0 20px 40px;
+	float:left;
+	clear:none;
+}
+
+
+#design_target img, #listen_target img, #create_target img, #deliver_target img {
+	margin: 10px 0 10px 8px;
+	border: 7px solid #f8f8f8;
+}
+
+
+.arrows {
+	color: #ffffff;
+	font-size: 1.5em;
+}
+
+.intro_sentence {
+	padding: 20px 0 10px 0;
+}
+
+
+#first_list {
+	margin-left: 0 !important;
+}

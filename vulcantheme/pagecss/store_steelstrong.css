@@ -1,0 +1,145 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+/*------------STEELSTRONG STORE FIXTURES STYLES-----------*/
+
+#store_header {
+	margin: 0 auto;
+	padding: 0;
+	width: 960px;
+	min-height: 210px;
+	height:auto !important;
+	height:210px;
+	-moz-box-shadow:    0px 0px 12px 1px #a6a6a6;
+    -webkit-box-shadow: 0px 0px 12px 1px #a6a6a6;
+    box-shadow:         0px 0px 12px 1px #a6a6a6;
+	position:relative;
+	z-index:10;
+	height:1%;
+}
+
+
+#header_copy {
+	width: 100%;
+	min-height:120px;
+	height:auto !important;
+	height:120px;
+	margin: 0;
+	padding:100px 0 20px 0;
+	background:#ffffff url('/wp-content/uploads/steelstrong-web-banner.jpg') no-repeat right top;
+	float: left;
+	clear:both;
+	overflow:hidden;
+	height:1%;
+	
+}
+
+
+#header_copy h1 {
+	font-size:3em;
+	line-height:1.2em;
+	margin:0;
+	margin-right: 370px;
+	padding:8px 50px 8px 27px;
+	color:#98d2de;
+	background:rgb(0, 0, 0);
+	background: rgba(0, 0, 0, 0.8);
+	background-image: url('/wp-content/uploads/logo_steelstrong.png') no-repeat right top;
+	display: none;
+}
+
+
+#header_copy p {
+	margin: 5px 460px 0 27px;
+}
+
+
+
+
+
+/*------------STEELSTRONG STORE CATEGORY MAIN-----------*/
+
+
+#store_main {
+	margin: 0 auto;
+	padding: 40px 0;
+	width: 960px;
+	min-height: 500px;
+	height:auto !important;
+	height:500px;
+	background:#ffffff url("/wp-content/uploads/bg_shadow.png") no-repeat left top;
+	overflow:hidden;
+	height:1%;
+}
+
+
+
+
+/*------------STEELSTRONG STORE CATEGORY CONTAINERS-----------*/
+
+.store_category_container {
+	width:46%;
+	margin-left:27px;
+	float:left;
+	clear:none;
+	margin-bottom: 35px;
+}
+
+
+
+.store_category_inside {
+	width:auto;
+	min-height:180px;
+	border: 7px solid #e1e1e1;
+	padding: 0;
+	margin:0;
+	overflow:hidden;
+    height:1%;
+}
+
+
+.store_category_inside p {
+	margin:15px;
+	line-height: 1.4em;
+}
+
+
+.tn_floatright {
+	float:right;
+	padding: 15px 5px 0 10px;
+	display:inline;
+}
+
+
+h1.store  {
+	width:65%;
+	background-color:#000000;
+	font-size:1.2em;
+	line-height:1.2em;
+	padding: 8px 0 8px 10px;
+	margin:0;
+	color: #363636;
+}
+
+
+h1.store a:link  {
+	color: #ffffff;
+}
+
+
+h1.store a:visited  {
+	color: #ffffff;
+}
+
+
+h1.store a:hover  {
+	color: #98d2de;
+}
+
+
+
+#store_header_subcat {
+	display: none;
+}

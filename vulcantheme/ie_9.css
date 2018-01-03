@@ -1,0 +1,48 @@
+/*
+Theme Name:     Twenty Eleven Child Theme for Vulcan Industries
+Theme URI:      http://www.vulanind.com/
+Description:    Child theme for the Twenty Eleven theme 
+Author:         EBSCO Industries, Inc.
+Author URI:     http: //www.ebscoind.com
+Template:       twentyeleven
+Version:        1.0.0
+*/
+
+
+@import url("style.css");
+
+
+
+
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+
+/*---approx 262 in style---*/
+
+.request_info {
+	top:72px;
+}
+
+
+
+a#icon_home {
+	padding:9px 23px 11px 22px;
+	display: block;
+	/*width: 20px;*/
+}
+
+a#icon_home img {
+	padding-left: 3px;
+}
+
+
+
+form button {
+	margin:-4px 0 0 -3px;
+}
+
+
+

@@ -1,0 +1,141 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+/*------------COMMON CONTENT PAGES STYLES-----------*/
+
+
+#content_header {
+	margin: 0 auto;
+	padding: 0;
+	width: 960px;
+	min-height: 210px;
+	height:auto !important;
+	height:210px;
+	-moz-box-shadow:    0px 0px 12px 1px #a6a6a6;
+    -webkit-box-shadow: 0px 0px 12px 1px #a6a6a6;
+    box-shadow:         0px 0px 12px 1px #a6a6a6;
+	position:relative;
+	z-index:10;
+	height:1%;
+}
+
+
+
+#content_header_copy {
+	width: 100%;
+	min-height:185px;
+	height:auto !important;
+	height:185px;
+	margin: 0;
+	padding:25px 0 20px 0;
+	background:#ffffff url('/wp-content/uploads/header_our_company.jpg') no-repeat right top;
+	float: left;
+	clear:both;
+	overflow:hidden;
+	height:1%;
+}
+
+
+#content_header_copy h1 {
+	font-size:3em;
+	line-height:1.2em;
+	margin:0;
+	margin-right: 370px;
+	padding:8px 50px 8px 27px;
+	/*---standard orange----color:#edb067;*/
+	/*----color to match header bg image----*/
+	color:#eae259;
+	background:rgb(0, 0, 0);
+	background: rgba(0, 0, 0, 0.8);
+}
+
+
+#content_header_copy p {
+	margin: 5px 460px 0 27px;
+}
+
+
+
+#field_1_5 p {
+	margin: 0;
+	
+}
+
+
+#s_image {
+	margin: 0 auto;
+	background:#ffffff url("/wp-content/uploads/bg_shadow.png") no-repeat left top;
+	margin-top: 100px;
+}
+
+
+#content_content {
+	margin: 0 auto;
+	padding: 10px 0 30px 0;
+	width: 960px;
+	min-height: 10px;
+	height:auto !important;
+	height:10px;
+	/*background:#ffffff url("/wp-content/uploads/bg_shadow.png") no-repeat left top;*/
+	background: #ffffff;
+	overflow:hidden;
+	height:1%;
+	}
+
+
+#content_content h1 {
+	padding: 0 20px;
+}
+
+
+#content_content h3 {
+	padding: 27px 0 0 20px;
+}
+
+#content_content p {
+	padding: 5px 20px;
+}
+
+
+#content_content p.imageheader {
+	padding: 0 20px 0 20px;
+}
+
+#content_content img.memberlogo {
+	padding: 0 20px 20px 20px;
+	margin-top: 0;
+}
+
+
+.content_text {
+	margin: 15px 75px 50px 27px;
+	font-size: 1.8em;
+	line-height:1.2em;
+}
+
+
+#content_content ul {
+	margin: 15px 75px 100px 27px;
+	list-style-type:none;
+	font-size: 1.4em;
+	line-height:1.6em;
+}
+
+#content_container {
+	background-color:#fff;
+	margin-bottom:50px;
+}
+
+
+
+.larger_txt {
+	font-size: 1.2em;
+}
+
+
+
+#feature_box {
+	display:none;
+}

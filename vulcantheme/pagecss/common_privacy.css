@@ -1,0 +1,39 @@
+#content_header_copy {
+	width: 100%;
+	min-height:185px;
+	height:auto !important;
+	height:185px;
+	margin: 0;
+	padding:25px 0 20px 0;
+	background:#ffffff url('/wp-content/uploads/header_privacy_policy.jpg') no-repeat right top;
+	float: left;
+	clear:both;
+	overflow:hidden;
+	height:1%;
+}
+
+
+#content_header_copy h1 {
+	font-size:3em;
+	line-height:1.2em;
+	margin:0;
+	margin-right: 370px;
+	padding:8px 50px 8px 27px;
+	color:#7cd3a6;
+	background:rgb(0, 0, 0);
+	background: rgba(0, 0, 0, 0.8);
+}
+
+
+#content_content h2 {
+	padding: 20px 0 0 20px;
+}
+
+
+#content_content h3 {
+	padding: 27px 0 0 20px;
+}
+
+#content_content p {
+	padding: 5px 20px;
+}
